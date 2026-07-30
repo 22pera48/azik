@@ -165,15 +165,14 @@
     background:var(--ink-2);
   }
   .quick-select-inner{
-    display:flex; align-items:center; gap:22px; padding:18px 0;
-    overflow-x:auto; scrollbar-width:none;
+    display:flex; align-items:center; gap:12px 22px; padding:18px 0;
+    flex-wrap:wrap;
   }
-  .quick-select-inner::-webkit-scrollbar{display:none;}
   .quick-select-label{
     font-family:var(--font-mono); font-size:0.78rem; color:var(--paper-dim);
     white-space:nowrap; flex:none;
   }
-  .quick-select-links{display:flex; gap:10px; flex-wrap:nowrap;}
+  .quick-select-links{display:flex; gap:10px; flex-wrap:wrap;}
   .quick-pill{
     display:inline-flex; align-items:center; gap:8px; flex:none;
     font-family:var(--font-mono); font-size:0.82rem; color:var(--paper);
