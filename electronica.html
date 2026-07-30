@@ -316,6 +316,8 @@
   }
   .portfolio-item .thumb{aspect-ratio:4/3; overflow:hidden; display:block;}
   .portfolio-item img{width:100%; height:100%; object-fit:cover; display:block; transition:transform 0.3s;}
+  .portfolio-item.wide .thumb{aspect-ratio:16/10; background:var(--ink); display:flex; align-items:center; justify-content:center;}
+  .portfolio-item.wide img{object-fit:contain; transition:transform 0.3s;}
   .portfolio-item:hover img{transform:scale(1.05);}
   .portfolio-item .cap{
     padding:10px 12px; font-family:var(--font-mono); font-size:0.72rem; color:var(--paper-dim);
@@ -555,19 +557,19 @@
         <p class="section-sub">Proceso completo de diseño de un PCB a medida: esquemático, ruteo de pistas y render final en 3D.</p>
       </div>
       <div class="portfolio-grid">
-        <a class="portfolio-item" href="assets/pcb-esquematico-rtc.png" target="_blank" rel="noopener">
+        <a class="portfolio-item wide" href="assets/pcb-esquematico-rtc.png" target="_blank" rel="noopener">
           <span class="thumb"><img src="assets/pcb-esquematico-rtc.png" alt="Esquemático del módulo de reloj en tiempo real y microcontrolador"></span>
           <span class="cap"><b>Esquemático</b>Reloj en tiempo real (RTC) y MCU</span>
         </a>
-        <a class="portfolio-item" href="assets/pcb-esquematico-mcu.jpg" target="_blank" rel="noopener">
+        <a class="portfolio-item wide" href="assets/pcb-esquematico-mcu.jpg" target="_blank" rel="noopener">
           <span class="thumb"><img src="assets/pcb-esquematico-mcu.jpg" alt="Esquemático de alimentación y microcontrolador ATmega328P"></span>
           <span class="cap"><b>Esquemático</b>Alimentación y microcontrolador</span>
         </a>
-        <a class="portfolio-item" href="assets/pcb-layout-componentes.png" target="_blank" rel="noopener">
+        <a class="portfolio-item wide" href="assets/pcb-layout-componentes.png" target="_blank" rel="noopener">
           <span class="thumb"><img src="assets/pcb-layout-componentes.png" alt="Ubicación de componentes en el layout del PCB"></span>
           <span class="cap"><b>Layout</b>Ubicación de componentes</span>
         </a>
-        <a class="portfolio-item" href="assets/pcb-layout-enrutado.png" target="_blank" rel="noopener">
+        <a class="portfolio-item wide" href="assets/pcb-layout-enrutado.png" target="_blank" rel="noopener">
           <span class="thumb"><img src="assets/pcb-layout-enrutado.png" alt="Enrutado de pistas del PCB"></span>
           <span class="cap"><b>Layout</b>Enrutado de pistas</span>
         </a>
